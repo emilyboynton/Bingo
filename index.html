@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="normalize.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </head>
+
+<body>
+  <header>
+  </header>
+  <section>
+    <h1>BINGO!</h1>
+    <a> <div id="generator">
+    <div id="number"></div>
+    <h3>GENERATE NUMBER</h3>
+    </div> </a>
+
+    <div id="boardgame">
+      
+      <div class="square fill colB row1 diagL"></div>
+      <div class="square fill colI row1"></div>
+      <div class="square fill colN row1"></div>
+      <div class="square fill colG row1"></div>
+      <div class="square fill colO row1 diagR"></div>
+
+      <div class="square fill colB row2"></div>
+      <div class="square fill colI row2 diagL"></div>
+      <div class="square fill colN row2"></div>
+      <div class="square fill colG row2 diagR"></div>
+      <div class="square fill colO row2"></div>
+ 
+      <div class="square fill colB row3"></div>
+      <div class="square fill colI row3"></div>
+      <div id="center" class="square clicked  colN row3 diagL diagR"><p>FREE</p></div>
+      <div class="square fill colG row3"></div>
+      <div class="square fill colO row3"></div>
+
+      <div class="square fill colB row4"></div>
+      <div class="square fill colI row4 diagR"></div>
+      <div class="square fill colN row4"></div>
+      <div class="square fill colG row4 diagL"></div>
+      <div class="square fill colO row4"></div>
+
+      <div class="square fill colB row5 diagR"></div>
+      <div class="square fill colI row5"></div>
+      <div class="square fill colN row5"></div>
+      <div class="square fill colG row5"></div>
+      <div class="square fill colO row5 diagL"></div>
+
+    </div>
+
+    <div class="overlay">
+      <div class="overlay-text">
+        <h2>You Win!</h2>
+        <p>Would you like to play again?</p>
+        <button id="yes">Yes!</button>
+        <button id="no">Nope</button>
+      </div>
+    </div>
+ 
+  </section>
+ 
+  <footer>
+  </footer>
+  </body>
+</html>
+
+<script src= "app.js">
+</script>
